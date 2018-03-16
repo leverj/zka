@@ -1,0 +1,72 @@
+{
+  "auth": [
+    {
+      "accountid": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645",
+      "method": "POST",
+      "uri": "/api/greetings",
+      "body": {
+        "key": "key",
+        "value": "value"
+      },
+      "nonce": 1452154049511,
+      "received": 1452154049599,
+      "result": "SIGN 0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645"
+    },
+    {
+      "secret": "0x06e0f6f2e4070376784bb74b1d84ae32e0bce1c2b7cb80cf60037938ebcdf7ba",
+      "apiKey": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645",
+      "accountid": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646",
+      "method": "POST",
+      "uri": "/api/greetings",
+      "body": {
+        "key": "key",
+        "value": "value"
+      },
+      "nonce": 1452154049511,
+      "received": 1452154049599,
+      "result": "SIGN 0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646.0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645.27.0x03ad7c5e860a5a9cc003e2e907388422ea98e443566869378b2e445402c83133.0x769b1ffa06c56d52244fb565d8420d059d834a9c36c96532c9bcb00c99d5e1b5"
+    }
+  ],
+  "noauthfailure": {
+    "secret": "0x06e0f6f2e4070376784bb74b1d84ae32e0bce1c2b7cb80cf60037938ebcdf7ba",
+    "apiKey": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645",
+    "accountid": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646",
+    "method": "POST",
+    "uri": "/api/greetings",
+    "body": {
+      "key": "key",
+      "value": "value"
+    },
+    "nonce": 1452154049511,
+    "received": 1452154049599,
+    "result": "SIGN 0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645.0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645"
+  },
+  "badauthfailure": {
+    "secret": "0x06e0f6f2e4070376784bb74b1d84ae32e0bce1c2b7cb80cf60037938ebcdf7ba",
+    "apiKey": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645",
+    "accountid": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646",
+    "method": "POST",
+    "uri": "/api/greetings",
+    "body": {
+      "key": "key",
+      "value": "value"
+    },
+    "nonce": 1452154049511,
+    "received": 1452154049599,
+    "result": "SIGN 0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646.0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645.27.0x03ad7c5e860a5a9cc003e2e907388422ea98e443566869378b2e445402c83133.0x769b1ffa06c56d52244fb565d8420d059d834a9c36c96532c9bcb00c99d5e1b4"
+  },
+  "noncefailure": {
+    "secret": "0x06e0f6f2e4070376784bb74b1d84ae32e0bce1c2b7cb80cf60037938ebcdf7ba",
+    "apiKey": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645",
+    "accountid": "0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646",
+    "method": "POST",
+    "uri": "/api/greetings",
+    "body": {
+      "key": "key",
+      "value": "value"
+    },
+    "nonce": 1452154049511,
+    "received": 1472154049599,
+    "result": "SIGN 0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea646.0x4CCaeF6429A7809e3D3FF1F5E1480F0A815Ea645.27.0x03ad7c5e860a5a9cc003e2e907388422ea98e443566869378b2e445402c83133.0x769b1ffa06c56d52244fb565d8420d059d834a9c36c96532c9bcb00c99d5e1b5"
+  }
+}

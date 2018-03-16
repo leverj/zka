@@ -1,0 +1,36 @@
+{
+  "name": "zka",
+  "version": "0.0.1",
+  "description": "zero knowledge authentication and api keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leverj/zka.git"
+  },
+  "keywords": [
+    "leverj",
+    "auth",
+    "secp256k1",
+    "decentralized"
+  ],
+  "author": "leverj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leverj/zka/issues"
+  },
+  "homepage": "https://github.com/leverj/zka#readme",
+  "dependencies": {
+    "affirm.js": "^1.0.0",
+    "ephemeral-cache": "^1.1.0",
+    "ethereumjs-util": "^5.1.5",
+    "lodash": "^4.17.5",
+    "rest.js": "^0.2.1",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "test-utils.js": "0.0.5"
+  }
+}
