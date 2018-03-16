@@ -13,5 +13,5 @@ module.exports = function zka(origin, apiPath) {
     zka.socket.setAccount(zka.account)
   }
 
-  return loginless
+  return zka
 }
