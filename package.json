@@ -4,7 +4,7 @@
   "description": "zero knowledge authentication and api keys",
   "main": "index.js",
   "scripts": {
-    "test": "mocha specs"
+    "test": "mocha --exit specs"
   },
   "repository": {
     "type": "git",

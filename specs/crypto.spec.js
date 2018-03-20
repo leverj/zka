@@ -2,6 +2,7 @@ const crypto = require('../src/crypto')
 const expect = require("expect.js")
 const fixtures = require("./fixtures/crypto.spec")
 const testUtils = require('test-utils.js')
+
 describe('crypto', function () {
   fixtures.auth.forEach(function (test, index) {
     testUtils.run([], index)(`${index}: should able to generate AUTH header`, function () {
