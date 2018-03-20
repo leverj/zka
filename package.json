@@ -1,6 +1,6 @@
 {
   "name": "zka",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "zero knowledge authentication and api keys",
   "main": "index.js",
   "scripts": {
